@@ -14,11 +14,11 @@ class MenuItems {
   });
 }
 
-const appMeniItems = <MenuItems>[
+const appMenuItems = <MenuItems>[
   MenuItems(
     title: 'Botones',
     subTitle: 'Varios botones',
-    link: 'buttons',
+    link: '/buttons',
     icon: Icons.smart_button_outlined,
   ),
   MenuItems(

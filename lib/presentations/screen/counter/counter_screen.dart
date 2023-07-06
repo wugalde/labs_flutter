@@ -15,13 +15,13 @@ class _CounterScreenState extends State<CounterScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Center(child: Text('Hello Chapter')),
-        leading: IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.favorite,
-            color: Colors.pink,
-          ),
-        ),
+        // leading: IconButton(
+        //   onPressed: () {},
+        //   icon: const Icon(
+        //     Icons.favorite,
+        //     color: Colors.pink,
+        //   ),
+        // ),
         actions: [
           IconButton(
             onPressed: () {},
