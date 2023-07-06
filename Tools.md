@@ -7,9 +7,9 @@
 
 Descargar las hojas de atajos recomendadas:
 
-[Guías de atajos - Dart ](https://www.neognsys.com/files/dart-cheat-sheet.pdf)
+[Guías de atajos - Dart ](https://github.com/wugalde/dart)
 
-[Guías de atajos - Flutter ](https://www.neognsys.com/files/flutter-cheat-sheet.pdf)
+[Guías de atajos - Flutter ](https://github.com/wugalde/labs_flutter)
 
 # Instalaciones en el equipo
 
