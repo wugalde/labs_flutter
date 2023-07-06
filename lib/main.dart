@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:labs_flutter/presentations/screen/counter/counter_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,24 +16,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.green,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Hello Chapter'),
-        ),
-        body: const Center(
-          child: Text(
-            'Mobile',
-            style: TextStyle(
-              fontSize: 100,
-              fontWeight: FontWeight.w100,
-            ),
-          ),
-        ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: const Icon(Icons.refresh_outlined),
-        ),
-      ),
+      home: const CounterScreen(),
     );
   }
 }
