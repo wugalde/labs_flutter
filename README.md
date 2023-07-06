@@ -409,6 +409,9 @@ bottom sheets y más elementos.
 ### [GetX](https://pub.dev/packages/get): 
 - Actualmente el paquete y gestor de estado más popular, hace muchas cosas aparte de manejar estados, tiene navegación, snackbars, internacionalización, temas, validaciones. Es considerado un Framework dentro de Flutter.
 - Yo en lo personal NO lo recomiendo para aprender primero ya que oculta conceptos que son necesarios aprender (Como el BuildContext), pero es muy poderoso.
+### [Go Router](https://pub.dev/packages/go_router): 
+- Manejo de rutas
+
 ### Pro Tip:
 - Prueben varios gestores de estado, miren cuál es el que más les gusta, sirve y resuelve su necesidad.
 - Creen su propia opinion sobre ellos y escuchen a la comunidad, pero al final del día, ustedes tienen la última palabra, NADIE de la comunidad le dará mantenimiento a tu código, por eso deben de saber cuál es mejor para ti.
