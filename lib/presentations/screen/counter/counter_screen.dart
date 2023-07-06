@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 class CounterScreen extends StatefulWidget {
+  static const String name = 'counter_screen';
   const CounterScreen({super.key});
 
   @override

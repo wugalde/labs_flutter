@@ -3,6 +3,7 @@ import 'package:labs_flutter/config/menu/menu_items.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {
+  static const String name = 'home_screen';
   const HomeScreen({super.key});
 
   @override
@@ -62,6 +63,7 @@ class _CustomMenuTile extends StatelessWidget {
       ),
       onTap: () {
         context.push(menuItem.link);
+        // context.pushNamed(menuItem.name);
 
         // Navigator.push(
         //   context,
